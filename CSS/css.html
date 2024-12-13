@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  css practice </title>
+
+    <!-- external styles  -->
+
+   <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <!-- internal styles  -->
+
+     <style>
+
+        /* SELECTORS IN CSS */
+
+        h1, .seventh{
+            color:hotpink ;
+        }
+            /* #first {
+            color: tomato;
+            }
+            #second{
+                color: aquamarine;
+            }
+            #third{
+                color: blue;
+            }
+
+            .fifth{
+                color: chocolate;
+            }
+            .sixth{
+                color: aqua;
+            }
+            .seventh{
+                color: black;
+                background-color: greenyellow;
+            }
+            #eighth{
+                background-color: aqua;
+            } */
+
+            #first, #second, .fifth,.seventh{
+                background-color: aqua;
+            }
+            h1.sixth{
+                background-color: honeydew;
+            }
+
+            div>strong{
+                background-color: blueviolet;
+            }
+            div strong{
+                background-color: blueviolet;
+            }
+
+            /* li.two ~ li{
+                background-color: darkcyan;
+            } */
+
+            .two{
+                background-color: aqua;
+
+  /* PSEUDO SELECTORSs */
+            }
+            h1:hover,li:hover,span:hover{
+                background-color: lightsalmon;
+            }
+
+            input:required{
+                background-color:skyblue;
+            }
+            input:hover{
+                background-color: aquamarine;
+            }
+            input:focus{
+                background-color:hotpink;
+            }
+            span::before{
+                content: "read about span";
+                color: blue;
+                font-weight: bold;
+            }
+            span::after{
+                content: " the end";
+                color: blue;
+                font-weight: bold;
+            }
+
+    </style>
+
+</head>
+<body>
+
+      <!-- inline styles  -->
+    <!-- <h1 style="color: red ;"> CSS </h1> -->
+
+    <h1 id="first"> CSS </h1>
+    <h1 id="second"> APPLE </h1>
+    <h1 id="third"> BANANA </h1>
+    <h1 id="fourth"> CUSTARD APPLE </h1>
+    <h1 class="fifth " id="eighth"> DAIRY MILK </h1>
+    <h1 class="sixth seventh"> EAT </h1>
+
+    <p class="seventh"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus in, inventore et voluptates soluta rerum temporibus fuga tempore itaque? Laudantium ipsa modi, velit, impedit numquam ullam iusto iste, molestiae itaque aliquid incidunt in qui culpa est dolore repudiandae inventore consequatur voluptas eos. Fuga adipisci esse soluta quo nesciunt dolorem? </p>
+
+    <div>
+        <section>
+            <strong> this is strong </strong>
+        </section>
+    </div>
+
+    <ol>
+        <li> Lorem ipsum dolor sit amet consectetur</li>
+
+        <li class="two"> Lorem ipsum dolor sit amet </li>
+        
+        <li> Lorem ipsum dolor sit amet consectetur</li>
+
+        <li> Lorem ipsum dolor sit amet consectetur li>
+    </ol>
+
+    <input required type="text"> 
+    <br><br>
+
+    <span>
+        this is span tag 
+    </span>
+
+</body>
+</html>
